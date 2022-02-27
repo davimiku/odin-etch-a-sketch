@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <main id="app">
+      <form class="reset-form">
+        <label>
+          Grid Size
+          <input class="grid-size-input" type="number" max="100" value="64">
+        </label>
+        <button class="reset-grid">Reset Grid</button>
+      </form>
+      <section class="grid-container"></section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/app.ts"></script>
+  </body>
+</html>

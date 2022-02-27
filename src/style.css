@@ -1,0 +1,25 @@
+#app {
+  text-align: center;
+  margin-top: 4rem;
+
+  display: grid;
+  place-items: center;
+}
+
+.reset-form { 
+  margin-bottom: 2rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(64, 1fr);
+
+  height: 50rem;
+  width: 50rem;
+
+  outline: 1px solid black;
+}
+
+.grid-item-colored {
+  background-color: black;
+}
