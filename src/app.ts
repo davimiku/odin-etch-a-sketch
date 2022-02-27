@@ -18,7 +18,6 @@ export function resetGrid() {
 
 function createGridItem(index: number): HTMLDivElement {
   const div = document.createElement("div")
-  div.classList.add("grid-item")
   div.dataset.index = index.toString()
   div.addEventListener('mouseenter', (_) => div.classList.add("grid-item-colored"))
 
